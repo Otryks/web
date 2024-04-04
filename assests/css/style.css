@@ -1,0 +1,24 @@
+:root {
+    --bg-color: #EBE3E1;
+    --primary: #1E3E2F;
+    --text: #0e0e0e;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#main-logo {
+    height: 50px;
+    color: var(--primary);
+}
